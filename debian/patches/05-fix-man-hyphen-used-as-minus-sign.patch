@@ -1,0 +1,116 @@
+Author: Agustin Henze <tin@sluc.org.ar>
+Description: Fix man, hyphen was being used as minus sign.
+--- a/documentation/man/crrcsim.1
++++ b/documentation/man/crrcsim.1
+@@ -8,57 +8,57 @@
+ .B "crrcsim [-fvhV] [\-l \fIlandscape-file\fP] [\-c \fIcdepth\fP]"
+ .B "[\-x \fIxres\fP] [\-y \fIyres\fP]"
+ .br
+-.B "[\-d \fIwinddir\fP] [\-w \fIwindvel\fP] [\-g \fIconfig-file\fP] [\-s \fIon|off\fP]"
++.B "[\-d \fIwinddir\fP] [\-w \fIwindvel\fP] [\-g \fIconfig\-file\fP] [\-s \fIon|off\fP]"
+ .B "[\-u \fIon|off\fP]"
+ .br
+ .B "[\-m \fIAILERON|RUDDER\fP]"
+ .B "[\-b \fInr:buttonfunc\fP]"
+ .B "[\-i \fImethod\fP]"
+-.I airplane-file
++.I airplane\-file
+ .SH DESCRIPTION
+ .B crrcsim
+-is a model-airplane flight simulation program for Linux
++is a model\-airplane flight simulation program for Linux
+ with ports to other platforms. Using crrcsim you can learn how to
+ fly model aircraft, test new aircraft designs, and improve your
+ skills by practicing in the relative safety of your PC.
+ .SH OPTIONS
+-.IP "-b nr:buttonfunc"
++.IP "\-b nr:buttonfunc"
+ Bind a joystick button to a function.
+ .I nr
+-is the number of the joystick button. For example, -b 2:INCTHROTTLE 
++is the number of the joystick button. For example, \-b 2:INCTHROTTLE
+ will increase the current throttle setting by 10% each time button #2 is pressed.
+ See section BUTTON FUNCTIONS for a listing of all possible functions.
+-.IP "-c cdepth"
+-Color-depth in bits-per-pixel
+-.IP "-d winddir"
++.IP "\-c cdepth"
++Color\-depth in bits\-per\-pixel
++.IP "\-d winddir"
+ Wind direction in degrees.
+-.IP -f
++.IP \-f
+ Start in fullscreen mode.
+-.IP "-g config-file"
++.IP "\-g config\-file"
+ Specify a config file.
+-.IP -h
++.IP \-h
+ Display help and exit.
+-.IP "-i type"
++.IP "\-i type"
+ Select input method.
+-.IP "-l landscape-file"
++.IP "\-l landscape\-file"
+ Load the landscape defined by 
+-.I landscape-file
+-.IP "-m AILERON|RUDDER"
++.I landscape\-file
++.IP "\-m AILERON|RUDDER"
+ Specify which function is controlled by horizontal mouse movement (if the input method is
+ set to MOUSE).
+-.IP "-s on|off"
++.IP "\-s on|off"
+ Enable/disable sound (default: on).
+-.IP "-u on|off"
++.IP "\-u on|off"
+ Enable/disable graphical user interface (default: on).
+-.IP -v
+-Enable on-screen display of some values. This option may be specified up to three times.
+-.IP -V
++.IP \-v
++Enable on\-screen display of some values. This option may be specified up to three times.
++.IP \-V
+ Only print version information and exit.
+-.IP "-w windvel"
++.IP "\-w windvel"
+ Wind velocity in ft/s.
+-.IP "-x xres"
++.IP "\-x xres"
+ Horizontal resolution in pixels.
+-.IP "-y yres"
++.IP "\-y yres"
+ Vertical resolution in pixels.
+ .SH "BUTTON FUNCTIONS"
+ .IP PAUSE
+@@ -80,13 +80,13 @@
+ The airplane is controlled by the keyboard.
+ .IP MOUSE
+ Elevator and either aileron or rudder (depending on the
+-.B -m
++.B \-m
+ option) are controlled by the mouse. Throttle can be adjusted
+ by using the keyboard.
+ .IP JOYSTICK
+ The airplane is controlled by the joystick. Control functions can be
+ mapped to the joystick axes with the
+-.B -b
++.B \-b
+ option.
+ .IP RCTRAN
+ Reads the PPM signal from an r/c transmitter using the parallel port and
+@@ -107,11 +107,11 @@
+ .I ~/.crrcsim/crrcsim.xml
+ .RS
+ Default configuration file. Overridden by the
+-.B -g
++.B \-g
+ option.
+ .SH HISTORY
+ .B crrcsim
+ was originally written by Jan Kansky <kansky@ll.mit.edu>. 
+-You may contact the current maintainers on the crrcsim-devel mailing list
+-at <crrcsim-devel@lists.berlios.de>.
++You may contact the current maintainers on the crrcsim\-devel mailing list
++at <crrcsim\-devel@lists.berlios.de>.
+ 

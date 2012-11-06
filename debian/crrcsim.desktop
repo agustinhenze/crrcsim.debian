@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Version=0.9.12
+Name=CRRCsim
+GenericName=crrcsim
+Exec=crrcsim
+Terminal=false
+Categories=Game;Simulation;
+Comment=A flight simulator
+Comment[pt]=Simulação de Vôo
+Comment[es]=Un simulador de vuelo
+Icon=crrcsim

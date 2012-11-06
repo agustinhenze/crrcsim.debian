@@ -1,0 +1,12 @@
+Author: Agustin Henze <tin@sluc.org.ar>
+Description: Add libgmp to linking stage
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -253,6 +253,7 @@
+   ${JPEG_LIBRARIES}
+   ${PLIB_LIBRARIES}
+   ${Boost_LIBRARIES}
++  gmp
+   )
+ 
+ include_directories(${CRRCSIM_INCDIRS})

@@ -1,0 +1,7 @@
+01-fix-dependencies-and-install-paths.patch
+02-file-missing.patch
+03-cgal-old-sentence-removed.patch
+04-remove-libraries-linked-unnecessarily.patch
+05-fix-man-hyphen-used-as-minus-sign.patch
+06-sys_io_missing.patch
+07-add-libgmp.patch

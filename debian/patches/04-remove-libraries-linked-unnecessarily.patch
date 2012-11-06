@@ -1,0 +1,14 @@
+Author: Agustin Henze <tin@sluc.org.ar>
+Description: Remove libraries linked unnecessarily.
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -246,7 +246,8 @@
+   mod_windfield
+   mod_chardevice
+   ${SDL_LIBRARY}
+-  ${OPENGL_LIBRARIES}
++  ${OPENGL_gl_LIBRARY}
++  ${OPENGL_glu_LIBRARY}
+   ${PORTAUDIO_LIBRARIES}
+   ${CGAL_LIBRARIES}
+   ${JPEG_LIBRARIES}

@@ -1,0 +1,10 @@
+Document: crrcsim-manual
+Title: Documentation about CRRCSim
+Abstract: This is separated into documents interesting to user/model
+ creator/developer and becomes more detailed this way, so for example a dev
+ should read user and model creator documents.
+Section: Games/Simulation
+
+Format: HTML
+Index: /usr/share/doc/crrcsim-doc/index.html
+Files: /usr/share/doc/crrcsim-doc/*

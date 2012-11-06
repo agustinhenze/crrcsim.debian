@@ -1,0 +1,12 @@
+Author: Agustin Henze <tin@sluc.org.ar>
+Description: Deleted CGAL::set_error_behaviour, used in old versions of cgal.
+--- a/src/mod_landscape/winddata3D.cpp
++++ b/src/mod_landscape/winddata3D.cpp
+@@ -84,7 +84,6 @@
+ int ModelBasedScenery::init_wind_data(const char* filename)
+ #endif
+ {
+-  CGAL::set_error_behaviour ( CGAL::CONTINUE); //CGAL failure behaviour
+   wind_data = new WindData;
+   Vertex_handle v;
+   FILE *input = fopen(filename,"r");

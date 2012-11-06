@@ -1,0 +1,3 @@
+debian/tmp/usr/games/crrcsim /usr/games/
+packages/icons/crrcsim.xpm /usr/share/pixmaps
+debian/crrcsim.desktop /usr/share/applications

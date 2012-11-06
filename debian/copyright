@@ -1,0 +1,458 @@
+Files: *
+Copyright: Jan Edward Kansky <kansky@ll.mit.edu>
+ Mark Drela and Bruce Jackson
+License: GPL-2
+
+Files: src/aircraft.h, src/aircraft.cpp
+Copyright: 2009, 2010 Jens W
+License: GPL-2
+
+Files: src/mod_inputdev/inputdev.h,
+ src/mod_inputdev/inputdev_zhenhua/inputdev_zhenhua.h,
+ src/mod_inputdev/inputdev_zhenhua/inputdev_zhenhua.cpp,
+ src/mod_inputdev/inputdev.cpp,
+ src/mod_inputdev/inputdev_serial/inputdev_serial.cpp,
+ src/mod_inputdev/inputdev_serial/inputdev_serial.h
+Copyright: 2007, 2008 Martin Herrmann
+License: GPL-2
+
+Files: src/mod_inputdev/inputdev_ct6a/inputdev_ct6a.cpp,
+ src/mod_inputdev/inputdev_ct6a/inputdev_ct6a.h
+Copyright: 2009 Nikolay Borisovich Eremeyev
+License: GPL-2
+
+Files: src/mod_main/crrc_checkopts.cpp, src/mod_main/eventhandler.h,
+ src/mod_main/eventhandler.cpp, src/CTime.cpp,
+ src/mod_inputdev/inputdev_audio/inputdev_audio.cpp, src/global.cpp,
+ src/mod_fdm/physics/eom.cpp, src/mod_mode/T_GameHandler.h,
+ src/mod_mode/F3F/handlerF3F.cpp, src/mod_mode/F3F/handlerF3F.h, src/global.h,
+ src/mod_misc/scheduler.cpp, src/mod_misc/SimpleXMLTransfer.cpp,
+ src/mod_misc/scheduler.h, src/crrc_keyboard.cpp, src/config.cpp,
+ src/crrc_main.cpp, src/GUI/crrc_f3f.h, src/GUI/crrc_gui_main.cpp,
+ src/GUI/crrc_joy.cpp, src/GUI/crrc_f3f.cpp, src/GUI/crrc_calibmap.cpp,
+ src/GUI/crrc_ctrlgen.cpp, src/GUI/crrc_mousebutton.cpp, src/CTime.h,
+ src/SimStateHandler.cpp, src/mod_video/crrc_graphics.cpp, src/crrc_main.h
+Copyright: 2005, 2008 Olivier Bordes
+License: GPL-2
+
+Files: src/mod_misc/lib_conversions.h, src/mod_misc/lib_conversions.cpp,
+ src/mod_misc/SimpleXMLTransfer.h
+Copyright: 2003, 2004, 2006 Jens Wilhelm Wulf  j dot w dot wulf at gmx dot net
+License: GPL-2
+
+Files: src/mod_main/crrc_checkopts.cpp, src/ImageLoaderTGA.cpp,
+ src/mod_landscape/crrc_builtin_scenery.cpp,
+ src/mod_landscape/model_based_scenery.cpp, src/mod_landscape/crrc_scenery.cpp,
+ src/mod_inputdev/inputdev_PPM/inputdev_PPM.cpp,
+ src/mod_inputdev/inputdev_parallel/inputdev_parallel.cpp,
+ src/mod_fdm/ls_geodesy.h, src/mod_fdm/fdm_inputs.h,
+ src/mod_mode/F3F/handlerF3F.cpp, src/mod_misc/filesystools.cpp,
+ src/config.cpp, src/crrc_main.cpp, src/GUI/util.cpp, src/GUI/util.h,
+ src/mod_env/earth/ls_gravity.h, src/mod_env/earth/atmos_62.h,
+ src/crrc_sound.h, src/crrc_sound.cpp, src/mod_math/intgr.h,
+ src/mod_math/intgr.cpp, src/crrc_main.h
+Copyright: 2004, 2005, 2006 Lionel Cailler
+License: GPL-2
+
+Files: src/mod_windfield/windfield.cpp, src/mod_landscape/model_based_scenery.h,
+ src/mod_landscape/crrc_builtin_scenery.cpp,
+ src/mod_landscape/model_based_scenery.cpp,
+ src/mod_landscape/wind_from_terrain.h,
+ src/mod_landscape/crrc_builtin_scenery.h, src/mod_landscape/winddata3D.h,
+ src/mod_landscape/winddata3D.cpp, src/mod_landscape/crrc_scenery.h,
+ src/mod_landscape/wind_from_terrain.cpp, src/mod_landscape/crrc_scenery.cpp,
+ src/mod_inputdev/inputdev_PPM/inputdev_PPM.cpp,
+ src/mod_inputdev/inputdev_audio/inputdev_audio.cpp,
+ src/mod_fdm/fdm_testmode/fdm_testmode.cpp, src/config.h,
+ src/crrc_keyboard.cpp, src/config.cpp, src/crrc_main.cpp, src/crrc_main.cpp,
+ src/GUI/crrc_gui_viewwind.cpp, src/GUI/crrc_video.cpp,
+ src/GUI/crrc_calibmap.cpp, src/GUI/crrc_gui_viewwind.h,
+ src/GUI/crrc_location.h, src/GUI/crrc_location.cpp,
+ src/mod_video/ssgLoadJPG.cpp, src/mod_video/crrc_graphics.cpp,
+ src/crrc_main.h
+Copyright: 2005, 2008, 2009, 2010, 2012 Joel Lienard
+License: GPL-2
+
+Files: src/GUI/crrc_planesel.cpp, src/GUI/crrc_planesel.h,
+ src/GUI/puaGLPreview.h, src/GUI/puaGLPreview.cpp
+Copyright: 2007 Tom Willis
+License: GPL-2
+
+Files: src/mod_main/crrc_checkopts.cpp,
+ src/mod_landscape/crrc_builtin_scenery.cpp,
+ src/mod_landscape/model_based_scenery.cpp, src/mod_landscape/crrc_scenery.cpp,
+ src/mod_inputdev/inputdev.h, src/mod_inputdev/inputdev_mnav/inputdev_mnav.h,
+ src/mod_inputdev/inputdev_mnav/inputdev_mnav.cpp,
+ src/mod_inputdev/inputdev_mnav/mnav.cpp,
+ src/mod_inputdev/inputdev_mnav/mnav.h,
+ src/mod_inputdev/inputdev_parallel/inputdev_parallel.cpp,
+ src/mod_inputdev/inputdev.cpp,
+ src/mod_inputdev/inputdev_serpic/inputdev_serpic.cpp, src/global.cpp,
+ src/crrc_soundserver.cpp, src/mod_fdm/fdm_inputs.h, src/mod_fdm/fdm.cpp,
+ src/mod_fdm/eom01/eom01.cpp, src/mod_fdm/eom01/eom01.h,
+ src/mod_fdm/fdm_larcsim/fdm_larcsim.h,
+ src/mod_fdm/fdm_larcsim/fdm_larcsim.cpp, src/mod_fdm/fdm.h,
+ src/mod_fdm/fdm_displaymode/fdm_displaymode.h,
+ src/mod_fdm/fdm_displaymode/fdm_displaymode.cpp, src/global.h, src/config.h,
+ src/mod_misc/filesystools.h, src/mod_misc/filesystools.cpp,
+ src/mod_robots/robot.cpp, src/crrc_keyboard.cpp, src/config.cpp,
+ src/SimStateHandler.h, src/crrc_main.cpp, src/GUI/crrc_ctrlgen.cpp,
+ src/SimStateHandler.cpp, src/crrc_main.h
+Copyright: 2006, 2007, 2008 Todd Templeton
+License: GPL-2
+
+Files: src/mod_inputdev/inputdev_audio/inputdev_audio.h,
+ src/mod_inputdev/inputdev_audio/inputdev_audio.cpp
+Copyright: 2004 Joel Lienard  Lionel Cailler
+License: GPL-2
+
+Files: src/global_fdm.h, src/mod_main/crrc_checkopts.cpp, src/robots.h,
+ src/mod_windfield/windfield.h, src/mod_windfield/thermal03/thermikschale.cpp,
+ src/mod_windfield/thermal03/solve.h, src/mod_windfield/thermal03/tschalen.cpp,
+ src/mod_windfield/thermal03/thconf.h,
+ src/mod_windfield/thermal03/thermikschale.h,
+ src/mod_windfield/thermal03/tschalen.h, src/mod_windfield/thermal03/solve.cpp,
+ src/mod_windfield/thermalprofile.h, src/mod_windfield/windfield.cpp,
+ src/CTime.cpp, src/mod_cntrl/cntrl_omega/cntrl_omega.cpp,
+ src/mod_cntrl/cntrl_omega/cntrl_omega.h,
+ src/mod_cntrl/cntrl_phugoid/cntrl_phugoid.h,
+ src/mod_cntrl/cntrl_phugoid/cntrl_phugoid.cpp,
+ src/mod_cntrl/cntrl_scalethrottle/scalethrottle.cpp,
+ src/mod_cntrl/cntrl_scalethrottle/scalethrottle.h,
+ src/mod_cntrl/cntrl_initinputs/cntrl_initinputs.h,
+ src/mod_cntrl/cntrl_initinputs/cntrl_initinputs.cpp,
+ src/mod_cntrl/cntrl_setuserinput/cntrl_setuserinput.h,
+ src/mod_cntrl/cntrl_setuserinput/cntrl_setuserinput.cpp,
+ src/mod_cntrl/controller.cpp,
+ src/mod_cntrl/cntrl_limitflipthr/limitflipthrottle.cpp,
+ src/mod_cntrl/cntrl_limitflipthr/limitflipthrottle.h,
+ src/mod_cntrl/cntrl_rateofclimb/cntrl_rateofclimb.h,
+ src/mod_cntrl/cntrl_rateofclimb/cntrl_rateofclimb.cpp,
+ src/mod_cntrl/cntrl_mcopter01/cntrl_mcopter01.cpp,
+ src/mod_cntrl/cntrl_mcopter01/cntrl_mcopter01.h, src/mod_cntrl/controller.h,
+ src/global_airplane.h, src/mod_fdm_config.h, src/ImageLoaderTGA.cpp,
+ src/mod_landscape/model_based_scenery.h,
+ src/mod_landscape/crrc_builtin_scenery.cpp,
+ src/mod_landscape/model_based_scenery.cpp,
+ src/mod_landscape/crrc_builtin_scenery.h, src/mod_landscape/crrc_scenery.h,
+ src/mod_landscape/crrc_scenery.cpp, src/mod_inputdev/inputdev_rctran/mbuff.h,
+ src/mod_inputdev/inputdev_rctran/inputdev_rctran.h,
+ src/mod_inputdev/inputdev_rctran/inputdev_rctran.cpp,
+ src/mod_inputdev/inputdev.h,
+ src/mod_inputdev/inputdev_serial2/LoggerReader_ttyS.cpp,
+ src/mod_inputdev/inputdev_serial2/LoggerReader_byte.cpp,
+ src/mod_inputdev/inputdev_serial2/inputdev_serial2.h,
+ src/mod_inputdev/inputdev_serial2/LoggerReader_byte.h,
+ src/mod_inputdev/inputdev_serial2/LoggerReader_ttyS.h,
+ src/mod_inputdev/inputdev_serial2/inputdev_serial2.cpp,
+ src/mod_inputdev/inputdev_mnav/inputdev_mnav.h,
+ src/mod_inputdev/inputdev_mnav/inputdev_mnav.cpp,
+ src/mod_inputdev/inputdev_mnav/mnav.cpp,
+ src/mod_inputdev/inputdev_mnav/mnav.h,
+ src/mod_inputdev/inputdev_PPM/inputdev_PPM.cpp,
+ src/mod_inputdev/inputdev_PPM/inputdev_PPM.h,
+ src/mod_inputdev/inputdev_audio/inputdev_audio.h,
+ src/mod_inputdev/inputdev_audio/inputdev_audio.cpp,
+ src/mod_inputdev/inputdev_software/inputdev_software.h,
+ src/mod_inputdev/inputdev_software/inputdev_software.cpp,
+ src/mod_inputdev/inputdev_zhenhua/inputdev_zhenhua.h,
+ src/mod_inputdev/inputdev_zhenhua/inputdev_zhenhua.cpp,
+ src/mod_inputdev/inputdev_parallel/inputdev_parallel.h,
+ src/mod_inputdev/inputdev_parallel/inputdev_parallel.cpp,
+ src/mod_inputdev/inputdev.cpp,
+ src/mod_inputdev/inputdev_serpic/inputdev_serpic.cpp,
+ src/mod_inputdev/inputdev_serpic/inputdev_serpic.h,
+ src/mod_inputdev/inputdev_rctran2/inputdev_rctran2.h,
+ src/mod_inputdev/inputdev_rctran2/inputdev_rctran2.cpp,
+ src/mod_inputdev/inputdev_serial/inputdev_serial.cpp,
+ src/mod_inputdev/inputdev_serial/inputdev_serial.h, src/include_gl.h,
+ src/zoom.cpp, src/crrc_system.h, src/crrc_soundserver.h, src/record.h,
+ src/ImageLoaderTGA.h, src/zoom.h, src/global.cpp, src/crrc_fdm.cpp,
+ src/crrc_fdm.h, src/crrc_soundserver.cpp, src/crrc_soundserver.cpp,
+ src/mod_fdm/power/gearing.h, src/mod_fdm/power/propeller.cpp,
+ src/mod_fdm/power/shaft.cpp, src/mod_fdm/power/gearing.cpp,
+ src/mod_fdm/power/engine_dcm.cpp, src/mod_fdm/power/simplethrust.cpp,
+ src/mod_fdm/power/shaft.h, src/mod_fdm/power/battery.cpp,
+ src/mod_fdm/power/engine_dcm.h, src/mod_fdm/power/values_step.h,
+ src/mod_fdm/power/power.cpp, src/mod_fdm/power/propeller.h,
+ src/mod_fdm/power/battery.h, src/mod_fdm/power/power.h,
+ src/mod_fdm/power/simplethrust.h, src/mod_fdm/ls_geodesy.h,
+ src/mod_fdm/fdm_inputs.h, src/mod_fdm/fdm.cpp, src/mod_fdm/fdm_002/fdm_002.h,
+ src/mod_fdm/fdm_002/fdm_002.cpp, src/mod_fdm/xmlmodelfile.cpp,
+ src/mod_fdm/ls_geodesy.cpp, src/mod_fdm/eom01/eom01.cpp,
+ src/mod_fdm/eom01/eom01.h, src/mod_fdm/xmlmodelfile.h,
+ src/mod_fdm/fdm_testmode/fdm_testmode.cpp,
+ src/mod_fdm/fdm_testmode/fdm_testmode.h,
+ src/mod_fdm/fdm_larcsim/fdm_larcsim.h,
+ src/mod_fdm/fdm_larcsim/fdm_larcsim.cpp, src/mod_fdm/fdm.h,
+ src/mod_fdm/fdm_displaymode/fdm_displaymode.h,
+ src/mod_fdm/fdm_displaymode/fdm_displaymode.cpp,
+ src/mod_fdm/fdm_mcopter01/fdm_mcopter01.cpp,
+ src/mod_fdm/fdm_mcopter01/fdm_mcopter01.h,
+ src/mod_fdm/fdm_heli01/fdm_heli01.cpp, src/mod_fdm/fdm_heli01/fdm_heli01.h,
+ src/mod_fdm/fdm_env.h, src/mod_fdm/ls_types.h, src/mod_fdm/physics/eom.h,
+ src/mod_fdm/physics/eom.cpp, src/mod_fdm/formats/airtoxml.cpp,
+ src/mod_fdm/formats/airtoxml.h, src/mod_mode/T_GameHandler.h,
+ src/mod_mode/F3F/handlerF3F.cpp, src/mod_mode/F3F/handlerF3F.h,
+ src/robots.cpp, src/global.h, src/crrc_loadair.h, src/global_sound.h,
+ src/config.h, src/crrc_system.cpp, src/mod_misc/scheduler.cpp,
+ src/mod_misc/lib_conversions.h, src/mod_misc/crrc_rand.h,
+ src/mod_misc/ls_constants.h, src/mod_misc/lib_conversions.cpp,
+ src/mod_misc/SimpleXMLTransfer.h, src/mod_misc/SimpleXMLTransfer.cpp,
+ src/mod_misc/filesystools.h, src/mod_misc/scheduler.h,
+ src/mod_misc/crrc_rand.cpp, src/mod_misc/filesystools.cpp,
+ src/mod_robots/fdm_playback.h, src/mod_robots/robot.h,
+ src/mod_robots/robot.cpp, src/mod_robots/robotfile.cpp,
+ src/mod_robots/fdm_playback.cpp, src/mod_robots/marker.h,
+ src/mod_robots/robotfile.h, src/crrc_keyboard.cpp, src/crrc_loadair.cpp,
+ src/config.cpp, src/SimStateHandler.h, src/crrc_main.cpp, src/defines.h,
+ src/GUI/crrc_loadrobot.cpp, src/GUI/crrc_slider.cpp, src/GUI/crrc_f3f.h,
+ src/GUI/crrc_video.cpp, src/GUI/crrc_audio.cpp, src/GUI/crrc_planesel.cpp,
+ src/GUI/crrc_scaleinput.cpp, src/GUI/crrc_loadrobot.h,
+ src/GUI/crrc_calibmap.h, src/GUI/puaFileBox.h, src/GUI/crrc_gui_main.cpp,
+ src/GUI/crrc_joy.cpp, src/GUI/crrc_scaleinput.h, src/GUI/puaFileBox.cpp,
+ src/GUI/util.cpp, src/GUI/puaScrListBox.cpp, src/GUI/util.h,
+ src/GUI/crrc_planesel.h, src/GUI/crrc_f3f.cpp, src/GUI/crrc_launch.cpp,
+ src/GUI/crrc_msgbox.h, src/GUI/crrc_windthermal.cpp, src/GUI/crrc_launch.h,
+ src/GUI/crrc_calibmap.cpp, src/GUI/crrc_video.h, src/GUI/crrc_ctrlgen.cpp,
+ src/GUI/crrc_msgbox.cpp, src/GUI/crrc_ctrlgen.h, src/GUI/crrc_setrecordname.h,
+ src/GUI/crrc_dialog.cpp, src/GUI/puaGLPreview.h, src/GUI/crrc_mousebutton.h,
+ src/GUI/crrc_joy.h, src/GUI/crrc_setrecordname.cpp, src/GUI/puaGLPreview.cpp,
+ src/GUI/crrc_slider.h, src/GUI/crrc_spin.cpp, src/GUI/crrc_windthermal.h,
+ src/GUI/crrc_location.h, src/GUI/crrc_gui_main.h, src/GUI/crrc_dialog.h,
+ src/GUI/crrc_location.cpp, src/GUI/crrc_mousebutton.cpp, src/GUI/crrc_audio.h,
+ src/GUI/crrc_spin.h, src/GUI/puaScrListBox.h, src/mod_env/earth/ls_gravity.h,
+ src/mod_env/earth/ls_gravity.cpp, src/mod_env/earth/atmos_62.cpp,
+ src/mod_env/earth/atmos_62.h, src/mod_env/earth/ls_earth.h, src/CTime.h,
+ src/crrc_sound.h, src/mouse_kbd.h, src/SimStateHandler.cpp,
+ src/mod_windfield_config.h, src/mouse_kbd.cpp, src/crrc_sound.cpp,
+ src/mod_math/matrix33.h, src/mod_math/ratelim.h, src/mod_math/matrix33.cpp,
+ src/mod_math/intgr.h, src/mod_math/quaternion.cpp, src/mod_math/quaternion.h,
+ src/mod_math/linearreg.cpp, src/mod_math/vector3.cpp,
+ src/mod_math/linearreg.h, src/mod_math/intgr.cpp, src/mod_math/pt1.h,
+ src/mod_math/pt1.cpp, src/mod_math/vector3.h, src/mod_math/quat_test.cpp,
+ src/mod_video/crrc_sky.cpp, src/mod_video/crrc_animation.cpp,
+ src/mod_video/crrc_sky.h, src/mod_video/gloverlay.cpp,
+ src/mod_video/crrc_animation.h, src/mod_video/crrc_graphics.cpp,
+ src/mod_video/crrc_graphics.h, src/mod_video/glconsole.cpp,
+ src/mod_video/gloverlay.h, src/mod_video/glconsole.h, src/record.cpp,
+ src/crrc_main.h
+Copyright: 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 Jens Wilhelm Wulf
+License: GPL-2
+
+Files: src/mod_fdm/ls_geodesy.cpp, src/mod_fdm/ls_types.h,
+ src/mod_misc/ls_constants.h, src/mod_env/earth/ls_gravity.cpp,
+ src/mod_env/earth/atmos_62.cpp, src/mod_env/earth/ls_earth.h
+Copyright: 1992, 1993 Bruce Jackson
+License: GPL-2
+
+Files: src/crrc_soundserver.h
+Copyright: 2007 Jerry Williams
+License: GPL-2
+
+Files: src/mod_landscape/crrc_builtin_scenery.cpp,
+ src/mod_landscape/model_based_scenery.cpp, src/mod_landscape/crrc_scenery.cpp,
+ src/crrc_main.cpp, src/GUI/crrc_calibmap.cpp, src/GUI/crrc_ctrlgen.cpp
+Copyright: 2005, 2007, 2008 Chris Bayley
+License: GPL-2
+
+Files: src/mod_inputdev/inputdev_rctran2/kernel_module/rctran2.c
+Copyright: 2005 Benko Attila
+License: GPL-2
+
+Files: src/mod_landscape/model_based_scenery.h,
+ src/mod_landscape/crrc_builtin_scenery.cpp,
+ src/mod_landscape/model_based_scenery.cpp,
+ src/mod_landscape/crrc_builtin_scenery.h, src/mod_landscape/crrc_scenery.h,
+ src/mod_landscape/crrc_scenery.cpp
+Copyright: 2000, 2001 Jan Kansky
+License: GPL-2
+
+Files: src/mod_video/shadow.h, src/mod_video/shadow_volume.cpp
+Copyright: 2011 JOel Lienard
+License: GPL-2
+
+Files: src/global_video.h, src/mod_main/Event.h,
+ src/mod_main/crrc_checkopts.cpp,
+ src/mod_main/crrc_checkopts.h, src/mod_main/EventDispatcher.h,
+ src/mod_main/eventhandler.cpp, src/mod_main/Event.cpp,
+ src/mod_main/EventDispatcher.cpp, src/mod_windfield/windfield.h,
+ src/mod_windfield/thermal03/tschalen.cpp, src/mod_windfield/windfield.cpp,
+ src/CTime.cpp, src/mod_cntrl/cntrl_initinputs/cntrl_initinputs.h,
+ src/mod_cntrl/cntrl_initinputs/cntrl_initinputs.cpp,
+ src/mod_cntrl/cntrl_setuserinput/cntrl_setuserinput.h,
+ src/mod_cntrl/cntrl_setuserinput/cntrl_setuserinput.cpp, src/mod_fdm_config.h,
+ src/ImageLoaderTGA.cpp, src/mod_landscape/model_based_scenery.h,
+ src/mod_landscape/hd_tilingterrain.cpp,
+ src/mod_landscape/crrc_builtin_scenery.cpp,
+ src/mod_landscape/model_based_scenery.cpp,
+ src/mod_landscape/crrc_builtin_scenery.h, src/mod_landscape/winddata3D.h,
+ src/mod_landscape/winddata3D.cpp, src/mod_landscape/hd_tilingterrain.h,
+ src/mod_landscape/crrc_scenery.h, src/mod_landscape/crrc_scenery.cpp,
+ src/mod_landscape/heightdata.h, src/mod_inputdev/inputdev_rctran/mbuff.h,
+ src/mod_inputdev/inputdev_rctran/inputdev_rctran.h,
+ src/mod_inputdev/inputdev_rctran/inputdev_rctran.cpp,
+ src/mod_inputdev/inputdev.h, src/mod_inputdev/inputdev_mnav/inputdev_mnav.cpp,
+ src/mod_inputdev/inputdev_mnav/mnav.cpp,
+ src/mod_inputdev/inputdev_PPM/inputdev_PPM.cpp,
+ src/mod_inputdev/inputdev_PPM/inputdev_PPM.h,
+ src/mod_inputdev/inputdev_audio/inputdev_audio.h,
+ src/mod_inputdev/inputdev_audio/inputdev_audio.cpp,
+ src/mod_inputdev/inputdev_software/inputdev_software.h,
+ src/mod_inputdev/inputdev_software/inputdev_software.cpp,
+ src/mod_inputdev/inputdev_zhenhua/inputdev_zhenhua.h,
+ src/mod_inputdev/inputdev_zhenhua/inputdev_zhenhua.cpp,
+ src/mod_inputdev/inputdev_parallel/inputdev_parallel.h,
+ src/mod_inputdev/inputdev_parallel/inputdev_parallel.cpp,
+ src/mod_inputdev/inputdev.cpp,
+ src/mod_inputdev/inputdev_serpic/inputdev_serpic.cpp,
+ src/mod_inputdev/inputdev_serpic/inputdev_serpic.h,
+ src/mod_inputdev/inputdev_rctran2/inputdev_rctran2.h,
+ src/mod_inputdev/inputdev_rctran2/inputdev_rctran2.cpp,
+ src/mod_inputdev/inputdev_serial/inputdev_serial.cpp,
+ src/mod_inputdev/inputdev_serial/inputdev_serial.h, src/include_gl.h,
+ src/zoom.cpp, src/crrc_system.h, src/crrc_soundserver.h, src/ImageLoaderTGA.h,
+ src/global.cpp, src/crrc_fdm.cpp, src/crrc_soundserver.cpp,
+ src/mod_fdm/power/gearing.h, src/mod_fdm/power/shaft.cpp,
+ src/mod_fdm/power/shaft.h, src/mod_fdm/power/battery.cpp,
+ src/mod_fdm/power/engine_dcm.h, src/mod_fdm/power/values_step.h,
+ src/mod_fdm/power/power.cpp, src/mod_fdm/power/propeller.h,
+ src/mod_fdm/power/battery.h, src/mod_fdm/power/power.h,
+ src/mod_fdm/power/simplethrust.h, src/mod_fdm/fdm_inputs.h,
+ src/mod_fdm/fdm.cpp, src/mod_fdm/gear01/gear.cpp, src/mod_fdm/gear01/gear.h,
+ src/mod_fdm/fdm_002/fdm_002.h, src/mod_fdm/fdm_002/fdm_002.cpp,
+ src/mod_fdm/ls_geodesy.cpp, src/mod_fdm/eom01/eom01.cpp,
+ src/mod_fdm/eom01/eom01.h, src/mod_fdm/fdm_testmode/fdm_testmode.cpp,
+ src/mod_fdm/fdm_testmode/fdm_testmode.h,
+ src/mod_fdm/fdm_larcsim/fdm_larcsim.h,
+ src/mod_fdm/fdm_larcsim/fdm_larcsim.cpp, src/mod_fdm/fdm.h,
+ src/mod_fdm/fdm_displaymode/fdm_displaymode.cpp,
+ src/mod_fdm/fdm_mcopter01/fdm_mcopter01.cpp,
+ src/mod_fdm/fdm_mcopter01/fdm_mcopter01.h,
+ src/mod_fdm/fdm_heli01/fdm_heli01.cpp, src/mod_fdm/fdm_heli01/fdm_heli01.h,
+ src/mod_fdm/physics/eom.cpp, src/mod_fdm/formats/airtoxml.cpp,
+ src/mod_mode/T_GameHandler.h, src/mod_mode/F3F/handlerF3F.cpp,
+ src/mod_mode/F3F/handlerF3F.h, src/global.h, src/crrc_loadair.h, src/config.h,
+ src/crrc_system.cpp, src/mod_misc/scheduler.cpp,
+ src/mod_misc/lib_conversions.cpp, src/mod_misc/SimpleXMLTransfer.h,
+ src/mod_misc/SimpleXMLTransfer.cpp, src/mod_misc/filesystools.h,
+ src/mod_misc/scheduler.h, src/mod_misc/filesystools.cpp,
+ src/mod_robots/robot.cpp, src/aircraft.h, src/crrc_keyboard.cpp,
+ src/crrc_loadair.cpp, src/config.cpp, src/SimStateHandler.h, src/aircraft.cpp,
+ src/crrc_main.cpp, src/defines.h, src/GUI/crrc_ctrldev.h, src/GUI/crrc_f3f.h,
+ src/GUI/crrc_video.cpp, src/GUI/crrc_audio.cpp, src/GUI/crrc_planesel.cpp,
+ src/GUI/crrc_scaleinput.cpp, src/GUI/crrc_calibmap.h, src/GUI/puaFileBox.h,
+ src/GUI/crrc_gui_main.cpp, src/GUI/crrc_joy.cpp, src/GUI/crrc_scaleinput.h,
+ src/GUI/puaFileBox.cpp, src/GUI/util.cpp, src/GUI/puaScrListBox.cpp,
+ src/GUI/util.h, src/GUI/crrc_planesel.h, src/GUI/crrc_f3f.cpp,
+ src/GUI/crrc_launch.cpp, src/GUI/crrc_msgbox.h, src/GUI/crrc_windthermal.cpp,
+ src/GUI/crrc_launch.h, src/GUI/crrc_calibmap.cpp, src/GUI/crrc_video.h,
+ src/GUI/crrc_ctrlgen.cpp, src/GUI/crrc_msgbox.cpp, src/GUI/crrc_ctrlgen.h,
+ src/GUI/crrc_dialog.cpp, src/GUI/puaGLPreview.h, src/GUI/crrc_mousebutton.h,
+ src/GUI/crrc_joy.h, src/GUI/puaGLPreview.cpp, src/GUI/crrc_spin.cpp,
+ src/GUI/crrc_windthermal.h, src/GUI/crrc_location.h, src/GUI/crrc_gui_main.h,
+ src/GUI/crrc_ctrldev.cpp, src/GUI/crrc_dialog.h, src/GUI/crrc_location.cpp,
+ src/GUI/crrc_mousebutton.cpp, src/GUI/crrc_audio.h, src/GUI/puaScrListBox.h,
+ src/mod_env/earth/ls_gravity.cpp, src/mod_env/earth/atmos_62.cpp,
+ src/mod_env/earth/atmos_62.h, src/mod_env/earth/ls_earth.h, src/CTime.h,
+ src/crrc_sound.h, src/mouse_kbd.h, src/SimStateHandler.cpp, src/mouse_kbd.cpp,
+ src/crrc_sound.cpp, src/mod_math/matrix33.h, src/mod_math/ratelim.h,
+ src/mod_math/intgr.h, src/mod_math/quaternion.h, src/mod_math/matrix44.h,
+ src/mod_math/intgr.cpp, src/mod_math/pt1.h, src/mod_math/vector3.h,
+ src/mod_video/airplane_vis.cpp, src/mod_video/crrc_sky.cpp,
+ src/mod_video/crrc_animation.cpp, src/mod_video/crrc_sky.h,
+ src/mod_video/gloverlay.cpp, src/mod_video/crrc_ssgutils.h,
+ src/mod_video/fonts.h, src/mod_video/crrc_animation.h,
+ src/mod_video/crrc_graphics.cpp, src/mod_video/airplane_vis.h,
+ src/mod_video/crrc_graphics.h, src/mod_video/crrc_ssgutils.cpp,
+ src/mod_video/glconsole.cpp, src/mod_video/gloverlay.h,
+ src/mod_video/glconsole.h, src/crrc_main.h
+Copyright: 2004, 2005, 2006, 2007, 2008, 2009, 2010 Jan Reucker
+License: GPL-2
+
+Files: src/mod_windfield/windfield.h, src/mod_windfield/windfield.cpp,
+ src/mod_inputdev/inputdev_rctran/mbuff.h,
+ src/mod_inputdev/inputdev_parallel/inputdev_parallel.h,
+ src/mod_inputdev/inputdev_parallel/inputdev_parallel.cpp,
+ src/crrc_soundserver.h, src/mod_fdm/ls_geodesy.h, src/mod_fdm/ls_types.h,
+ src/mod_misc/ls_constants.h, src/mod_misc/lib_conversions.cpp,
+ src/crrc_loadair.cpp, src/crrc_main.cpp, src/mod_env/earth/ls_gravity.h,
+ src/mod_env/earth/atmos_62.h, src/crrc_sound.cpp, src/crrc_main.h
+Copyright: 2000, 2001, 2003, 2004, 2005 Jan Edward Kansky
+License: GPL-2
+
+Files: src/mod_main/crrc_checkopts.cpp, src/crrc_keyboard.cpp,
+ src/crrc_main.cpp, src/crrc_sound.h, src/crrc_sound.cpp, src/crrc_main.h
+Copyright: 2004 Kees Lemmens
+License: GPL-2
+
+Files: src/GUI/puaGLPreview.h, src/GUI/puaGLPreview.cpp
+Copyright: 2007 twillis
+License: GPL-2
+
+License: GPL-2
+  This package is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License version 2
+  as published by the Free Software Foundation.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program; if not, write to the Free Software
+  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston,
+  MA 02110-1301, USA.
+
+  On Debian systems, the complete text of the GNU General
+  Public License can be found in `/usr/share/common-licenses/GPL-2'.
+
+Files: src/mod_video/fonts.cpp
+Copyright: 2005 Melchior FRANZ
+ 1999-2000 Pawel W. Olszta
+License: Expat
+
+Files: src/mod_chardevice/*
+Copyright: 2006 The Regents of the University of California.
+License: Expat
+
+License: Expat
+  Permission is hereby granted, free of charge, to any person obtaining
+  a copy of this software and associated documentation files (the
+  "Software"), to deal in the Software without restriction, including
+  without limitation the rights to use, copy, modify, merge, publish,
+  distribute, sublicense, and/or sell copies of the Software, and to
+  permit persons to whom the Software is furnished to do so, subject to
+  the following conditions:
+
+  The above copyright notice and this permission notice shall be included
+  in all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+  CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+  TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+  SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Files: debian/*
+Copyright: (C) 2012 Agustin Henze <tin@sluc.org.ar>
+License: GPL-3
+  This package is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation; either version 3 of the License, or
+  (at your option) any later version.
+
+  This package is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this package; if not, write to the Free Software
+  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
+  On Debian systems, the complete text of the GNU General
+  Public License can be found in `/usr/share/common-licenses/GPL-3'.

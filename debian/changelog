@@ -1,0 +1,31 @@
+crrcsim (0.9.12-5) unstable; urgency=low
+
+  * Fix FTBFS. Adds libgmp at linking stage (Closes: #692454).
+
+ -- Agustin Henze <tin@sluc.org.ar>  Tue, 06 Nov 2012 10:43:09 -0300
+
+crrcsim (0.9.12-4) unstable; urgency=low
+
+  * Added support for interface control via the audio input (Closes: #690881).
+
+ -- Agustin Henze <tin@sluc.org.ar>  Fri, 19 Oct 2012 10:31:34 -0300
+
+crrcsim (0.9.12-3) unstable; urgency=low
+
+  * Fix FTBFS on sh4: This platform does not provide <sys/io.h>, so the input
+    parallel port driver is disabled (Closes: #690194).
+
+ -- Agustin Henze <tin@sluc.org.ar>  Thu, 11 Oct 2012 11:52:18 -0300
+
+crrcsim (0.9.12-2) unstable; urgency=low
+
+  * Fix FTBFS on mips, mipsel, s390, s390x and sparc: Those platforms are not
+    provide <sys/io.h>, so the input parallel port driver is disabled.
+
+ -- Agustin Henze <tin@sluc.org.ar>  Fri, 05 Oct 2012 16:03:26 -0300
+
+crrcsim (0.9.12-1) unstable; urgency=low
+
+  * Initial release (Closes: #518217).
+
+ -- Agustin Henze <tin@sluc.org.ar>  Thu, 13 Aug 2012 12:43:20 -0300

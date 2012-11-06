@@ -1,0 +1,66 @@
+Author: Agustin Henze <tin@sluc.org.ar>
+Description: Fix CMakeLists.txt, boost-thread dependency and install paths.
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -169,6 +169,9 @@
+ endif (HAS_CGAL)
+ 
+ 
++# Check boost thread
++FIND_PACKAGE(Boost REQUIRED thread)
++
+ 
+ #
+ #
+@@ -248,6 +251,7 @@
+   ${CGAL_LIBRARIES}
+   ${JPEG_LIBRARIES}
+   ${PLIB_LIBRARIES}
++  ${Boost_LIBRARIES}
+   )
+ 
+ include_directories(${CRRCSIM_INCDIRS})
+@@ -279,14 +283,36 @@
+ endif (PORTAUDIO EQUAL 19)
+ 
+ INSTALL(TARGETS crrcsim
+-        RUNTIME DESTINATION bin)
++        RUNTIME DESTINATION games)
+         
+-INSTALL(DIRECTORY models/        DESTINATION share/${PROJECT_NAME}/models)
+-INSTALL(DIRECTORY objects/       DESTINATION share/${PROJECT_NAME}/objects)
+-INSTALL(DIRECTORY scenery/       DESTINATION share/${PROJECT_NAME}/scenery)
+-INSTALL(DIRECTORY sounds/        DESTINATION share/${PROJECT_NAME}/sounds)
+-INSTALL(DIRECTORY textures/      DESTINATION share/${PROJECT_NAME}/textures)
++INSTALL(DIRECTORY models/        DESTINATION share/games/${PROJECT_NAME}/models
++        PATTERN "Makefile"    EXCLUDE
++        PATTERN "Makefile.in" EXCLUDE
++        PATTERN "Makefile.am" EXCLUDE
++)
++INSTALL(DIRECTORY objects/       DESTINATION share/games/${PROJECT_NAME}/objects
++        PATTERN "Makefile"    EXCLUDE
++        PATTERN "Makefile.in" EXCLUDE
++        PATTERN "Makefile.am" EXCLUDE
++)
++INSTALL(DIRECTORY scenery/       DESTINATION share/games/${PROJECT_NAME}/scenery
++        PATTERN "Makefile"    EXCLUDE
++        PATTERN "Makefile.in" EXCLUDE
++        PATTERN "Makefile.am" EXCLUDE
++)
++INSTALL(DIRECTORY sounds/        DESTINATION share/games/${PROJECT_NAME}/sounds
++        PATTERN "Makefile"    EXCLUDE
++        PATTERN "Makefile.in" EXCLUDE
++        PATTERN "Makefile.am" EXCLUDE
++)
++INSTALL(DIRECTORY textures/      DESTINATION share/games/${PROJECT_NAME}/textures
++        PATTERN "Makefile"    EXCLUDE
++        PATTERN "Makefile.in" EXCLUDE
++        PATTERN "Makefile.am" EXCLUDE
++)
+ INSTALL(DIRECTORY documentation/ DESTINATION share/doc/${PROJECT_NAME}
+         PATTERN "Makefile"    EXCLUDE
+         PATTERN "Makefile.in" EXCLUDE
+-        PATTERN "Makefile.am" EXCLUDE)
++        PATTERN "Makefile.am" EXCLUDE
++        PATTERN "man*" EXCLUDE
++)

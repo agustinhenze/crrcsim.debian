@@ -1,0 +1,50 @@
+Source: crrcsim
+Section: games
+Priority: extra
+Maintainer: Agustin Henze <tin@sluc.org.ar>
+Build-Depends:
+ debhelper (>= 9),
+ cdbs,
+ dpkg-dev (>= 1.16.1~),
+ cmake,
+ libsdl1.2-dev,
+ libboost-thread-dev,
+ libplib-dev,
+ libcgal-dev,
+ libjpeg8-dev,
+ portaudio19-dev,
+Standards-Version: 3.9.3
+Homepage: http://crrcsim.berlios.de
+
+Package: crrcsim
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends},
+ crrcsim-data (>= ${source:Upstream-Version})
+Suggests: crrcsim-doc
+Description: Model-Airplane Flight Simulator
+ Is a model-airplane flight simulation program. Using it, you can learn how to
+ fly model aircraft, test new aircraft designs, and improve your skills by
+ practicing on your computer.
+
+Package: crrcsim-data
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: crrcsim
+Description: Data files for crrcsim package
+ Is a model-airplane flight simulation program. Using it, you can learn how to
+ fly model aircraft, test new aircraft designs, and improve your skills by
+ practicing on your computer.
+ .
+ This package contains data files (images, sounds, models, objects, sceneries
+ and textures) for the crrcsim package.
+
+Package: crrcsim-doc
+Architecture: all
+Depends: ${misc:Depends}
+Section: doc
+Description: Documentation for crrcsim package
+ Is a model-airplane flight simulation program. Using it, you can learn how to
+ fly model aircraft, test new aircraft designs, and improve your skills by
+ practicing on your computer.
+ .
+ This package provides the documentation for the crrcsim.

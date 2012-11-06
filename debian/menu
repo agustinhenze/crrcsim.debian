@@ -1,0 +1,2 @@
+?package(crrcsim):needs="X11" section="Games/Simulation" \
+  title="CRRCsim" command="/usr/games/crrcsim"
