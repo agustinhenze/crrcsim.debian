@@ -1,7 +1,7 @@
 Source: crrcsim
 Section: games
 Priority: extra
-Maintainer: Agustin Henze <tin@sluc.org.ar>
+Maintainer: Agustin Henze <tin@debian.org>
 Build-Depends:
  debhelper (>= 9),
  cdbs,
@@ -13,8 +13,10 @@ Build-Depends:
  libcgal-dev,
  libjpeg8-dev,
  portaudio19-dev,
-Standards-Version: 3.9.3
+Standards-Version: 3.9.5
 Homepage: http://crrcsim.berlios.de
+Vcs-Git: git://anonscm.debian.org/collab-maint/crrcsim.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/crrcsim.git
 
 Package: crrcsim
 Architecture: any
