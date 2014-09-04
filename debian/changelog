@@ -1,3 +1,13 @@
+crrcsim (0.9.12-6) unstable; urgency=medium
+
+  * Bump Standards-Version to 3.9.5 (no changes required)
+  * Add Vcs fields
+  * Use my debian email account
+  * Add longtitle and icon entry in debian/menu (Closes: #737852) Thanks to
+    Markus Koschany
+
+ -- Agustin Henze <tin@debian.org>  Thu, 04 Sep 2014 08:36:45 -0300
+
 crrcsim (0.9.12-5) unstable; urgency=low
 
   * Fix FTBFS. Adds libgmp at linking stage (Closes: #692454).
