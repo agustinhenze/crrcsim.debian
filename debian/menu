@@ -1,2 +1,6 @@
-?package(crrcsim):needs="X11" section="Games/Simulation" \
-  title="CRRCsim" command="/usr/games/crrcsim"
+?package(crrcsim):needs="X11" \
+  section="Games/Simulation" \
+  title="CRRCsim" \
+  longtitle="CRRCsim - Model-Airplane Flight Simulator" \
+  command="/usr/games/crrcsim" \
+  icon="/usr/share/pixmaps/crrcsim.xpm"
